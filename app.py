@@ -145,10 +145,10 @@ def generate_project_name(wp_url):
     
     return project_name
 
-st.set_page_config(page_title="WordPress Private Content to CustomGPT Data Transfer", layout="wide")
+st.set_page_config(page_title="WordPress Private Content to CustomGPT AI Agent Builder", layout="wide")
 
-st.title("WordPress Private Content to CustomGPT Data Transfer")
-st.markdown("*Securely sync your WordPress content to CustomGPT to build your AI agent*")
+st.title("WordPress Private Content to CustomGPT AI Agent Builder")
+st.markdown("*Securely sync your WordPress content to CustomGPT to build your AI agent*. [Github](https://github.com/adorosario/wordpress-to-customgpt)")
 st.markdown("---")
 
 # WordPress inputs
@@ -253,9 +253,9 @@ if st.button("Fetch and Transfer Data", help="Click to start the data transfer p
                     st.markdown(f"""
                     ### :tada: Data Successfully Synced!
                     
-                    Your WordPress content has been successfully transferred to CustomGPT and indexed.
+                    Your WordPress content has been successfully synced to CustomGPT and indexed.
                     
-                    You can now query your data using the CustomGPT dashboard:
+                    You can now [query](https://app.customgpt.ai/projects/{project_id}/ask-me-anything) your [data](https://app.customgpt.ai/projects/{project_id}/data/pages) and [deploy your AI agent](https://app.customgpt.ai/projects/{project_id}/sharing-settings) to your Wordpress website:
                     
                     **[Open CustomGPT Dashboard](https://app.customgpt.ai/projects/{project_id}/ask-me-anything)**
                     """)

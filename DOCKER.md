@@ -5,7 +5,7 @@ This guide provides instructions on how to build and run the Docker container fo
 ## Prerequisites
 
 - Docker installed on your local machine
-- Heroku CLI installed (for Heroku deployment)
+- Heroku CLI installed (optional: for Heroku deployment)
 - Git installed
 
 ## Building and Running Locally

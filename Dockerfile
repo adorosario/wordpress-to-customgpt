@@ -25,4 +25,4 @@ RUN useradd -m myuser
 USER myuser
 
 # Run the Streamlit app when the container launches
-CMD streamlit run app.py --server.port $PORT
+CMD streamlit run app.py --server.port 8501
