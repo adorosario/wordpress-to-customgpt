@@ -6,6 +6,9 @@
 
 A powerful and user-friendly tool to securely sync your private WordPress content to CustomGPT, enabling you to build AI agents with your private/paywalled data.
 
+## How To Use It?
+We provide an easy to use [no-code hosted Streamlit app](https://wordpress-to-customgpt.streamlit.app/). You can also self host the streamlit app if you'd like.
+
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
