@@ -165,14 +165,14 @@ with col1:
 with col2:
     wp_username = st.text_input(
         "WordPress Username",
-        help="Enter your WordPress username with sufficient permissions to access private content"
+        help="Enter your WordPress username with sufficient permissions to access private content."
     )
 
 with col3:
     wp_app_password = st.text_input(
         "WordPress Application Password",
         type="password",
-        help="Enter your WordPress application password. This is different from your login password. Generate it in WordPress under Users > Application Passwords."
+        help="Enter your WordPress application password. This is different from your login password. Generate it in WordPress under Users > Application Passwords. [See Guide](https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/)"
     )
 
 # Checkboxes for content types

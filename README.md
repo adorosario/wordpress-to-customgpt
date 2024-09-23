@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://wordpress-to-customgpt.streamlit.app/)
 
 A powerful and user-friendly tool to securely sync your private WordPress content to CustomGPT, enabling you to build AI agents with your private/paywalled data.
 
@@ -15,6 +15,12 @@ A powerful and user-friendly tool to securely sync your private WordPress conten
 - [Contributing](#contributing)
 - [License](#license)
 - [Support](#support)
+
+## Demo Video
+
+[![Watch the video](https://cdn.loom.com/sessions/thumbnails/077b0015d55648c09e67a1c5d78949a1-a3297ef6a7792907-full-play.gif)](https://www.loom.com/share/077b0015d55648c09e67a1c5d78949a1?sid=59fd73cb-2e6a-41bb-9b33-85a2e3ade336)
+
+[Click here to watch the full demo video](https://www.loom.com/share/077b0015d55648c09e67a1c5d78949a1?sid=59fd73cb-2e6a-41bb-9b33-85a2e3ade336)
 
 ## Features
 
@@ -38,7 +44,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/wordpress-to-customgpt.git
+   git clone https://github.com/adorosario/wordpress-to-customgpt.git
    cd wordpress-to-customgpt
    ```
 
@@ -93,11 +99,9 @@ Contributions to the WordPress to CustomGPT Data Transfer project are welcome! H
 4. Push to the branch: `git push origin feature-branch-name`.
 5. Create a pull request.
 
-Please make sure to update tests as appropriate and adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Support
 
